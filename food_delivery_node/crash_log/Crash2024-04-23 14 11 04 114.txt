@@ -1,0 +1,11 @@
+ReferenceError: print is not defined
+    at E:\food_delivery_node\controllers\login_controller.js:104:17
+    at Query.<anonymous> (E:\food_delivery_node\helpers\db_helpers.js:67:24)
+    at Query.<anonymous> (E:\food_delivery_node\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\food_delivery_node\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\food_delivery_node\node_modules\mysql\lib\protocol\Parser.js:43:10)

@@ -1,0 +1,10 @@
+Error: connect ECONNREFUSED ::1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    --------------------
+    at Protocol._enqueue (E:\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\food_delivery_node\node_modules\mysql\lib\Connection.js:116:18)
+    at reconnect (E:\food_delivery_node\helpers\db_helpers.js:18:16)
+    at Timeout._onTimeout (E:\food_delivery_node\helpers\db_helpers.js:25:17)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)

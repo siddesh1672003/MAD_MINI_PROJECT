@@ -1,0 +1,11 @@
+UnsupportedMediaTypeError: unsupported content-type
+    at Form.parse (E:\food_delivery_node\node_modules\multiparty\index.js:170:21)
+    at E:\food_delivery_node\controllers\admin_controller.js:200:18
+    at E:\food_delivery_node\controllers\admin_controller.js:1250:32
+    at Query.<anonymous> (E:\food_delivery_node\helpers\db_helpers.js:67:24)
+    at Query.<anonymous> (E:\food_delivery_node\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\food_delivery_node\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:291:23)
